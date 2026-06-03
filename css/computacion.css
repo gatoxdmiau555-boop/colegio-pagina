@@ -1,0 +1,22 @@
+.computacion{ background: linear-gradient(180deg, #071f3f 0%, #0c3d70 45%, #071a2d 100%); }
+.computacion::before{ content: ""; position: fixed; inset: 0; background: radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.14), transparent 25%), radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.12), transparent 22%); pointer-events:none; z-index:0; }
+.computacion .top-hero::before{ background: linear-gradient(90deg, rgba(5, 57, 93, 0.55) 0%, rgba(10, 61, 98, 0.30) 44%, rgba(7, 45, 86, 0.55) 100%); }
+.computacion .top-hero::after{ background: linear-gradient(180deg, transparent 0%, rgba(7, 26, 63, 0.45) 100%), radial-gradient(520px 220px at 18% 55%, rgba(56, 189, 248, 0.10), transparent 72%), radial-gradient(520px 260px at 86% 28%, rgba(59, 130, 246, 0.08), transparent 72%); }
+.computacion .navbar{ background: rgba(5, 43, 72, 0.92); border: 1px solid rgba(56, 189, 248, 0.22); }
+.computacion .navbar.scrolled{ background: rgba(5, 43, 72, 0.96); border-bottom-color: rgba(56, 189, 248, 0.30); }
+.computacion .nav-link{ background: rgba(255,255,255,0.10); border-color: rgba(56, 189, 248, 0.30); color: #edf9ff; }
+.computacion .nav-link:hover{ background: rgba(56, 189, 248, 0.20); color: #043861; }
+.computacion .kicker{ background: rgba(255,255,255,0.08); border-color: rgba(56, 189, 248, 0.24); }
+.computacion .kicker .dot{ background: linear-gradient(135deg, #38bdf8, #0ea5e9); }
+.computacion .stats{ background: rgba(255,255,255,0.04); border: 1px solid rgba(56, 189, 248, 0.12); box-shadow: 0 18px 40px rgba(15, 40, 72, 0.16); }
+.computacion .stats .stat{ background: rgba(240, 249, 255, 0.97); border-color: rgba(56, 189, 248, 0.18); }
+.computacion .stats .value{ color: #0c4a6e; }
+.computacion .year-pill{ background: linear-gradient(135deg, #0ea5e9, #22d3ee); }
+.computacion .timeline-content{ background: rgba(255,255,255,0.96); border-color: rgba(56, 189, 248, 0.12); box-shadow: 0 18px 40px rgba(18, 52, 96, 0.12); }
+.computacion .timeline-content h3{ color: #075985; }
+.computacion .box{ background: rgba(238, 248, 255, 0.95); border-color: rgba(56, 189, 248, 0.18); }
+.computacion .aside-title{ color: #0f4c75; }
+.computacion .section-title h2{ color: #7dd3fc; }
+.computacion .section-title .chip{ box-shadow: 0 0 0 5px rgba(56, 189, 248, 0.12); }
+@media (max-width: 980px){ .computacion .photo-grid{ grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px){ .computacion .photo-grid{ grid-template-columns: 1fr; } }
